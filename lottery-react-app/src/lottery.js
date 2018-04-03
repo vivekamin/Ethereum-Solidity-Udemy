@@ -56,3 +56,4 @@ const abi = [
   }
 ];
 
+export default new web3.eth.Contract(abi,address);
